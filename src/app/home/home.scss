@@ -1,0 +1,37 @@
+.banner {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.productos {
+  padding: 2rem;
+  .producto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    .producto {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      text-align: center;
+      .imagen-producto {
+        height: 150px;
+        background-color: #eee;
+        margin-bottom: 0.5rem;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,16 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header';
+import { FooterComponent } from './footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet,
+    HeaderComponent,
+    FooterComponent
+  ],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss']
 })
-export class App {
-  protected readonly title = signal('manaco');
-}
+export class App {}
