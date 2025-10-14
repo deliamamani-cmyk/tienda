@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manaco</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav li {
+            margin-left: 1.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            background-color: #f4f4f4;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Products Section Styles */
+        .products {
+            padding: 2rem;
+        }
+
+        .products h2 {
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            width: calc(33.333% - 0.67rem);
+            text-align: center;
+        }
+
+        .product-image {
+            background-color: #e0e0e0;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .product-name {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-price {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn-comprar {
+            background-color: #007bff;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-comprar:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer Styles (Optional) */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">MANACO</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Calzado que impulsa tu paso</h1>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Productos</h2>
+        <div class="product-grid">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <div class="product-image">[Imagen Producto 1]</div>
+                <div class="product-name">Producto 1</div>
+                <div class="product-price">$00.00</div>
+                <a href="#" class="btn-comprar">Comprar</a>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <div class="product-image">[Imagen Producto 2]</div>
+                <div class="product-name">Producto 2</div>
+                <div class="product-price">$00.00</div>
+                <a href="#" class="btn-comprar">Comprar</a>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <div class="product-image">[Imagen Producto 3]</div>
+                <div class="product-name">Producto 3</div>
+                <div class="product-price">$00.00</div>
+                <a href="#" class="btn-comprar">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Optional) -->
+    <footer>
+        &copy; 2025 Manaco. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
