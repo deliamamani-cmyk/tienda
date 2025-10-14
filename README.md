@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Manaco
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.4.
@@ -61,4 +61,4 @@ For more information on using the Angular CLI, including detailed command refere
 =======
 # tienda
 zapatos
->>>>>>> 5dc81960e3e9af3fff3b83de8a3513a909ba96e6
+
