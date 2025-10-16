@@ -1,65 +1,39 @@
+Primer Examen parcial de Tecnología de Internet
 
-# Manaco
+Delia Mamani Saucedo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.4.
+Desarrollar una maqueta web simple en Angular, con estructura semántica y accesible, representando la página de una tienda llamada MANACO.
+Se evaluará la aplicación correcta de etiquetas HTML semánticas, principios de accesibilidad (a11y), uso adecuado de commits y el despliegue del sitio en GitHub Pages.
 
-## Development server
 
-To start a local development server, run:
+Commits requeridos (10 en total):
 
-```bash
-ng serve
-```
+1. chore: inicializa proyecto Angular y primer push (se cumplio)
+Creación del proyecto con Angular CLI y primer commit en GitHub.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+2. feat(layout): crea componentes para layout y home (se cumplio)
+Creación de componentes base y estructura inicial del layout.
 
-## Code scaffolding
+3. feat(nav+footer): agrega navegación y pie de página (se cumplio)
+Navbar con enlaces Inicio, Servicios, Contacto y footer con Copyright 2025 MANACO.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+4. feat(home): agrega banner y sección de productos (se cumplio)
+Sección principal con un mensaje y tres productos con imagen, nombre, precio y botón “Comprar”.
 
-```bash
-ng generate component component-name
-```
+5. feat(router): configura rutas básicas (se cumplio)
+Configuración de ruteo entre Inicio, Servicios y Contacto.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+6. style: aplica CSS mínimo y responsive (se cumplio)
+Aplicación de estilos simples, limpios y sobrios.
 
-```bash
-ng generate --help
-```
+7. refactor(html): aplica estructura HTML semántica (se cumplio)
+Revisión del uso correcto de etiquetas estructurales (header, nav, main, section, article, footer).
 
-## Building
+8. a11y: mejora accesibilidad (se cumplio)
+Inclusión de lang="es", textos alternativos (alt) y aria-label donde sea necesario.
 
-To build the project run:
+9. deploy: publica el proyecto en GitHub Pages (se cumplio)
+Construcción y despliegue del sitio.
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# tienda
-zapatos
-
-     
+10. docs(readme): agrega README con resumen y checklist (se cumplio)
+Documento con descripción del proceso, enlace al sitio publicado y confirmación del cumplimiento de los requisitos.
